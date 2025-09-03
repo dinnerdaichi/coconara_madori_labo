@@ -1,46 +1,33 @@
 @use "../../foundation/mixin" as m;
 @use "../../foundation/functions" as *;
-
-
 .swiper-box{
   margin-top: rclamp(140, 1360);
-
-
   @include m.mq(sp){
      display: none;
   }
 }
-
 /* Swiperのスタイル */
 .swiper.swiper1,
 .swiper.swiper2 {
   width: 100%;
     max-height: rclamp(624, 1920);
-
-
   @include m.mq(sp){
      height: 500px;
      padding: 0;
   }
-
   @media screen and (max-width: 480px) {
     height: 275px;
-
   }
 }
-
 .swiper-slide {
-  // width: auto;
   height: 100%;
   transition: transform 0.3s ease, scale 0.3s ease;
   /* アニメーション */
-
   img{
     height: 100%;
     object-fit: cover;
   }
 }
-
 .swiper-wrapper {
   transition-timing-function: linear;
 }

@@ -1,85 +1,63 @@
 @use "../../foundation/mixin" as m;
 @use "../../foundation/functions" as *;
-
-
 .bg-yellow {
   position: relative;
   background-color: #FDE9C6;
-
-
 }
 .bg-beige {
   position: relative;
   background-color: #FDE9C6;
 }
-
-
-
 .bg-green {
   background-color: var(--color-green);
   color: var(--color-beige);
 }
-
-
 .c-button__decoration.button__bg-orange {
   background-image: url(../img/button_decoration-orange.png);
   background-size: cover;
 }
-
 .bg-orange {
   background-color: var(--color-orange);
-  color: var(--color-beige);
   font-weight: bold;
+  color: var(--color-beige);
 }
-
 .bg-orange.block {
   display: inline-block;
 }
-
 .marker-yellow {
-  background: linear-gradient(transparent 70%, var(--color-beige-light) 50%);
   display: inline-block;
+  background: linear-gradient(transparent 70%, var(--color-beige-light) 50%);
 }
-
 .text-orange{
   color: var(--color-orange);
 }
-
 .text-red{
   color: var(--color-red);
 }
-
 .text-beige{
   color: var(--color-beige-light);
 }
-
 .font-akari{
   font-family: "ads-akari", sans-serif;
   color: var(--color-green);
-
 }
-
-
 .text-green{
   color: var(--color-green);
 }
-
 .bg-orange_deco{
  background-image: url("../img/bg-orange_deco.png");
  background-size: cover;
 }
-
 .dots {
   position: relative;
   display: inline-block; /* 必須！ */
 }
-
 .dots::after {
-  content: "•";              /* ドット記号を表示 */
   position: absolute;
-  left: 50%;
   bottom: -10px;              /* 文字とドットの距離調整 */
-  transform: translateX(-50%);
+  left: 50%;
   font-size: rclamp(30 ,1920);           /* ドットの大きさ */
   line-height: 1;
+  content: "•";              /* ドット記号を表示 */
+  transform: translateX(-50%);
 }
