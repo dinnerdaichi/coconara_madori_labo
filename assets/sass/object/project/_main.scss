@@ -8,8 +8,6 @@
   --color-beige-light: #FDE9C6;
   --color-gray: #898989;
   --color-red: #C30D23;
-  --bg-: #;
-  --bg-: #;
 }
 * {
   box-sizing: border-box;
@@ -288,7 +286,6 @@ img {
 .underline {
   text-decoration: underline;
 }
-.mv__swiper--right {}
 .section01 {
   text-align: center;
   padding-top: rclamp(88, 1920);
@@ -297,7 +294,6 @@ img {
     padding-top: vw-sp(104);
     padding-bottom: vw-sp(66);
   }
-  .section__inner {}
   .section__title {
     h2 {
       font-size: rclamp(46, 1920);
@@ -458,7 +454,6 @@ img {
       margin-top: 0;
     }
   }
-  .bg-beige {}
   .sp-margin {
     @include m.mq(sp) {
       display: block;
@@ -541,8 +536,6 @@ img {
       }
     }
   }
-  .section__title-text {}
-  .orange-bg {}
   .section02__content {
     background-image: url(../img/section02_content-bg.png);
     background-size: cover;
@@ -567,7 +560,6 @@ img {
       width: 100%;
     }
   }
-  .step__content-left {}
   .step__content-head {
     display: flex;
     width: rclamp(616, 1920);
@@ -602,7 +594,6 @@ img {
     padding-block: rclamp(15, 1920)rclamp(30, 1920);
     margin-top: rclamp-negative(-30, 1920);
   }
-  .yellow {}
   .step__content-right {
     .step__content-head {
       img {
@@ -667,8 +658,6 @@ img {
       }
     }
   }
-  .c-button__decoration {}
-  .button__bg-orange {}
 }
 .section02__bottom {
   display: flex;
@@ -743,7 +732,6 @@ img {
   @include m.mq(sp) {
     padding-block: vw-sp(84) vw-sp(30);
   }
-  .section__inner {}
   .section__title {
     font-weight: bold;
     text-align: center;
@@ -922,10 +910,6 @@ img {
       }
     }
   }
-  .circle {}
-  .third {}
-  .fourth {}
-  .one {}
 }
 .section03__bottom {
   margin-top: rclamp(114, 1920);
@@ -944,8 +928,6 @@ img {
       }
     }
   }
-  .orange {}
-  .dots {}
   .flex-wrap {
     position: relative;
     display: flex;
@@ -1134,11 +1116,7 @@ img {
     margin-top: vw-sp(50);
   }
 }
-.section04__flex-before {}
-.section04__flex-before-arrow {}
-.section04__flex-after {}
-.section04__after-head {}
-.section04__flex-wrap {}
+
 .section04__more {
   margin-top: rclamp(94, 1920);
   @include m.mq(sp) {
@@ -1240,16 +1218,13 @@ img {
 span.marker-yellow {
   font-size: rclamp(47, 1920);
 }
-.section__more-left {}
-.section__more-right {}
-.section__more-text {}
-.marker-yellow {}
+
 .section05 {
   padding-block: rclamp(100, 1920)rclamp(150, 1920);
   @include m.mq(sp) {
     padding-block: vw-sp(74);
   }
-  .section__inner {}
+
   .section__title {
     width: rclamp(664, 1920);
     margin-inline: auto;
@@ -1328,7 +1303,7 @@ span.marker-yellow {
           letter-spacing: -0.06em;
         }
       }
-      .text-orange {}
+
     }
     &:nth-child(2) {
       width: rclamp(352, 1920);
@@ -1382,7 +1357,7 @@ span.marker-yellow {
       }
     }
   }
-  .section05__content-text {}
+
   .section__content-bottom {
     text-align: center;
     margin-top: rclamp(180, 1920);
@@ -1581,7 +1556,6 @@ span.marker-yellow {
     padding-top: vw-sp(70);
     padding-bottom: vw-sp(74);
   }
-  .section__inner {}
   .section__title {
     h2 {
       font-size: rclamp(42, 1920);
@@ -1647,7 +1621,6 @@ span.marker-yellow {
       }
     }
   }
-  .c-button__decoration {}
   .button__bg-orange {
     border-radius: 10px;
   }

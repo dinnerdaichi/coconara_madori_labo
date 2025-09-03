@@ -1,0 +1,67 @@
+html {}
+body {}
+main {}
+h1 {}
+hr {}
+pre {}
+a {}
+abbr[title] {}
+b {}
+
+strong {}
+code {}
+
+kbd {}
+
+samp {}
+small {}
+sub {}
+
+sup {}
+sup {}
+img {}
+button {}
+
+input {}
+
+optgroup {}
+
+select {}
+
+textarea {}
+
+[type="button"] {}
+
+[type="reset"] {}
+
+[type="submit"] {}
+button::-moz-focus-inner {}
+
+[type="button"]::-moz-focus-inner {}
+
+[type="reset"]::-moz-focus-inner {}
+
+[type="submit"]::-moz-focus-inner {}
+button:-moz-focusring {}
+
+[type="button"]:-moz-focusring {}
+
+[type="reset"]:-moz-focusring {}
+
+[type="submit"]:-moz-focusring {}
+fieldset {}
+legend {}
+progress {}
+textarea {}
+[type="checkbox"] {}
+
+[type="radio"] {}
+[type="number"]::-webkit-inner-spin-button {}
+
+[type="number"]::-webkit-outer-spin-button {}
+[type="search"] {}
+[type="search"]::-webkit-search-decoration {}
+details {}
+summary {}
+template {}
+[hidden] {}
