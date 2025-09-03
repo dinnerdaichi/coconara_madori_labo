@@ -1,0 +1,30 @@
+// Swiperの初期化
+const swiper = new Swiper('.swiper1', {
+  direction: 'vertical',
+  loop: true, // ループ有効
+  slidesPerView: 3, // 一度に表示する枚数
+  speed: 6000, // ループの時間
+  allowTouchMove: false, // スワイプ無効
+  autoplay: {
+    delay: 0, // 途切れなくループ
+  },
+  spaceBetween: 12,
+
+
+});
+// Swiperの初期化
+const swipe2 = new Swiper('.swiper2', {
+  direction: 'vertical',
+  loop: true, // ループ有効
+  slidesPerView: 3, // 一度に表示する枚数
+  speed: 6000, // ループの時間
+  allowTouchMove: false, // スワイプ無効
+  autoplay: {
+    delay: 0,
+    reverseDirection: true, // 途切れなくループ
+  },
+  spaceBetween: 12,
+
+
+});
+// Swiperの初期化
