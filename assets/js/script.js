@@ -7,6 +7,8 @@ const swiper = new Swiper('.swiper1', {
   allowTouchMove: false, // スワイプ無効
   autoplay: {
     delay: 0, // 途切れなくループ
+    reverseDirection: true, // 途切れなくループ
+
   },
   spaceBetween: 12,
 
